@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input {
+  padding: 6px;
+  font-size: 16px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.btn {
+  padding: 6px;
+  cursor: pointer;
+  max-width: 120px;
+}
